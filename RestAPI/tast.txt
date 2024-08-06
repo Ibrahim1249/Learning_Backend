@@ -1,0 +1,20 @@
+
+REST API - JSON 
+
+GET / users -> list all user -> web / html
+GET /api/users-> list data in json
+
+GET / users/1 -> list  user with id 1
+GET / users/2 -> list  user with id 2
+
+:id -> dynamic path where id is a variable
+POST / users -> create a new user
+
+PATCH/users/:id -> update/edit the user
+
+DELETE/users/:id -> Delete the user
+
+
+// this we consider only browser as a client then we send data in html from server
+
+// if we consider cross platform such as mobile , web that case we generally send data in json
